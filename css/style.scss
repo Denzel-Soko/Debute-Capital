@@ -1,0 +1,2329 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// *{
+//   outline: 1px solid black;
+// }
+
+
+* {
+  overflow-x: hidden;
+}
+
+
+
+.nav {
+    .hamburger {
+      display: none;
+    }
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+// HEADER STARTS HERE
+
+.banner{background-image: url(/img/banner.png);
+height: 140vh;
+background-repeat: no-repeat;
+position: relative;
+z-index: 1;
+.header{
+    .container{
+        .row{
+            .log{
+                z-index: 3;
+                
+                img{
+                    width: 200px;
+                }
+            
+            }
+            .nav-links{
+                
+                z-index: 3;
+                margin-top: 40px;
+                ul{
+                    li{height: 24px;
+                        a{
+                            color: black;
+                            margin-right: 37px;
+                            font-size: 18px;
+                            height: 23px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.over-lay{
+    
+
+    position: absolute;
+    z-index: 2;
+}
+
+h1{
+   
+    white-space: pre-line;
+    font-size: 50px;
+    margin-left: 350px;
+    margin-top: 40px;
+  
+    z-index: 3;
+
+}
+
+.leaf{
+    position: absolute;
+    z-index: 4;
+   margin-left: 430px;
+   margin-top: 150px;
+   img{
+       height: 400px;
+   }
+}
+
+
+
+
+}
+
+
+
+// ABOUT US STARTS HERE
+.about_us{
+    .container-fluid{
+        .row{
+            .left{
+            
+                p{
+                    white-space: pre-line;
+                    font-size: 20px;
+                    margin-left: 63px;
+                    height: 64px;
+
+                }
+                .our_ptag{
+                    height: 102px;
+                }
+                h2{
+                    height: 60px;
+                    margin-left: 63px;
+                    font-size: 45px;
+                    margin-bottom: 20px;
+                }
+                h6{
+                    height: 20px;
+                    margin-left: 63px;
+                    margin-bottom: 10px;
+                }
+                .our{
+                    height: 20px;
+                    margin-left: 63px;
+                    margin-bottom: 10px;
+                    margin-top: 50px;
+
+                }
+            }
+            .right{
+                img{
+                    width: 460px;
+                    margin-left: 170px;
+                }
+            }
+
+        }
+    }
+}
+// ABOUT US ENDS HERE
+
+
+// OUR VALUES STARTS HERE
+.our_values{
+    background-color: #E8DFCE;
+    margin-top: 100px;
+    .container{
+        .row{
+            h2{
+                height: 60px;
+                font-size: 45px;
+                margin-top: 70px;
+            }
+            .with{
+                height: 22px;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 20px;
+                margin-bottom: 40px;
+                height: 82px;
+            }
+            h3{
+                height: 35px;
+                font-size: 30px;
+            }
+            .first{
+                text-align: center;
+                h3{
+                    margin-top: 45px;
+                    font-size: 30px;
+                }
+               
+            }
+            .second{
+                margin-top: 140px;
+                text-align: center;  
+                h3{
+                    margin-top: 45px;
+                    font-size: 30px;
+                }         
+             } 
+            .third{
+                margin-top: 140px;
+                text-align: center;
+                h3{
+                    margin-top: 45px;
+                    font-size: 30px;
+                }
+             
+             } 
+             .forth{
+                text-align: center;
+                h3{
+                    margin-top: 45px;
+                    font-size: 30px;
+                }
+               
+            }
+        }
+    }
+}
+// OUR VALUES ENDS HERE
+
+
+
+section{
+    margin-top: 80px;
+    
+    .container{
+        h2{
+            height: 40px;
+            text-align: center;
+        }
+      
+        .we{
+            text-align: center;
+        }
+        .inner1{
+            margin-top: 180px;
+            h3{
+                height: 35px;
+            }
+            .welcome{
+                white-space: pre-line;
+                margin-left: 0px;
+            }
+        }
+        .inner2{
+            img{
+                width: 600px;
+            }
+        }
+    }
+}
+
+
+
+// DEBUT TEAM STARTS HERE
+.debut_team{
+    margin-top: 100px;
+    .container{
+        .row{
+            h2{
+                height: 60px;
+                font-size: 45px;
+                margin-left: 0px;
+
+            }
+
+            button{
+                margin-top: 10px;
+                border: none;
+                background-color: #262626;
+                color: white;
+                width: 180px;
+                height: 50px;
+                border-radius: 8px;
+                margin-left: 270px;
+            }
+            p{
+                margin-top: 30px;
+                margin-bottom: 50px;
+                height: 70px;
+            }
+            .first{
+                h6{
+                    margin-bottom: 20px;
+                    height: 20px;
+                }
+              
+                p{
+                    white-space: pre-line;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                img{
+                    border-radius: 0px 0px 0px 130px;
+                }
+               
+            }
+            .third{
+                img{
+                    border-radius: 0px 0px 130px 0px;
+                }
+
+
+                h6{
+                    margin-bottom: 20px;
+                    height: 20px;
+                }
+              
+                p{
+                    white-space: pre-line;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+               
+            }
+            .second{
+                h6{
+                    margin-bottom: 15px;
+                    height: 20px;
+                }
+              
+                p{
+                    white-space: pre-line;
+                    margin-top: 15px;
+                    margin-bottom: 8px;
+                }
+               
+            }
+        }
+    }
+}
+// DEBUT TEAM ENDS HERE
+
+
+// GET IN TOUCH STARTS HERE
+
+
+
+
+.get_in_touch{
+    height: 658px;
+
+    .bottom_image{
+       
+        z-index: 1;
+
+    }
+    .top{
+        position: absolute;
+        z-index: 2;
+        left: 45%;
+        top: 4.7%;
+    }
+position: relative;
+    h2{
+        position: absolute;
+        z-index: 3;
+        height: 60px;
+        font-size: 40px;
+        top: 50%;
+        margin-left: 80px;
+      
+        
+        
+       
+    }
+    p{
+        position: absolute;
+        z-index: 3;
+        font-size: 20px;
+        height: 62px;
+        top: 60%;
+        white-space: pre-line;
+    
+        margin-left: 80px;
+    }
+    
+
+    button{
+        position: absolute;
+        top: 80%;
+        left: 6.5%;
+        border: none;
+        background-color: #262626;
+        color: white;
+        width: 180px;
+        height: 50px;
+        border-radius: 8px;
+    }
+   
+}
+
+
+
+// GET IN TOUCH ENDS HERE
+
+
+.footer{
+    background-color: #262626;
+    color: white;
+    padding-top: 50px;
+   
+    .container{
+        .row{
+            h2{
+                font-size: 30px;
+            }
+            .first{
+                p{
+                    white-space: pre-line;
+                    height: 60px;
+                }
+                .icons{height: 50px;
+                    
+                  .fab{
+                      margin-right: 10px;
+                     
+
+                  }
+                  .google-plus{
+                      color: black;
+                      margin-left: 25px;
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 11.5px 10px 11.5px 10px;
+
+                  }
+                  .linkedin-in{
+                      color: black;
+                     
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 13px 12px 12px 14px;
+
+                  }
+                  .twitter{
+                      color: black;
+                     
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 13px 12px 12px 13px;
+
+                  }
+                  .facebook{
+                      color: black;
+                     
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 12px 15px 12px 15px;
+
+                  }
+                }
+
+            }
+            .second{
+                h2{
+                    margin-top: 60px;
+                    margin-bottom: 30px;
+                    height: 40px;
+                    
+                    
+                }
+                .location{
+                    
+                    margin-bottom: 25px;
+                    
+                }
+                
+                .mail{
+                    display: flex;
+                    margin-bottom: 15px;
+                    p{
+                        margin-left: 15px;
+                        height: 16px;
+                    }
+                    
+                }
+                .phone{
+                    display: flex;
+                    margin-bottom: 15px;
+                    p{
+                        margin-left: 15px;
+                        height: 34px;
+                        white-space: pre-line;
+                    }
+                    
+                }
+                
+                }
+
+
+
+
+                .third{
+                    margin-top: 60px;
+                    h2{
+                        height: 40px;
+                    }
+                    .home{
+                        display: flex;
+                        margin-top: 20px;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .about{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .team{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .portfolio{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .contact_us{
+                        display: flex;
+                        height: 30px;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                }
+
+                hr{
+                    background-color: white;
+                    width: 1000px;
+                    margin-top: 30px;
+                }
+               .last{
+                margin-left: 700px ;
+                margin-top: 20px;
+               }
+
+            }
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+    .first{
+        .container{
+          h1{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 26px;
+            height: 28px;
+          }
+          h5{
+            font-size: 16px;
+            margin-top: 20px;
+            text-align: center;
+          }
+        }
+      }
+      .slider{
+      
+      width: 5000px;
+      
+        .container{
+          h1{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 26px;
+            height: 28px;
+          }
+          h5{
+            font-size: 16px;
+            margin-top: 20px;
+            text-align: center;
+          }
+        }
+      }
+      
+      
+      
+      
+      .first{
+       
+        border: hidden;
+      
+      .card{
+        margin-bottom: 5%;
+        margin-top: 10%;
+        // min-height: 100px;
+        border: hidden;
+      
+       
+        img{
+            width: 40%;
+         
+            margin-bottom: -10px;
+        }
+        .mazoe{
+            width: 100%;
+            margin-left: 30%;
+            // margin-top: 26%;
+            border: hidden;
+            
+        }
+        h6{
+            padding-top: 1px;
+            padding-bottom: 5%;
+            margin-left: 10%;
+        }
+        p{
+          height: 20px;
+          
+        }
+        .mazoe1{
+            margin-top: 5%;
+            margin-left: 4%;
+            border: hidden;
+            
+        }
+        .peanut{
+            margin-top: 5%;
+        }
+        .dollars{
+            display: flex;
+            justify-content: space-around;
+            margin-left: 10px;
+            p{
+                font-size: 18px;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+        h5{
+            padding-top: 10px;
+            text-decoration: underline;
+        }
+       
+      }
+      .card:hover{
+        box-shadow: 0 0 10px;
+        transition: 0.6s;
+      
+      }
+      
+      }
+      
+      
+      
+      
+      
+      
+      
+      .left_arrow{
+        position: absolute;
+        top: 50%;
+        left: 66.3%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #E8DFCE;
+        
+        
+      
+      }
+      .right_arrow{
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 71%;
+       
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #E8DFCE;
+      
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+ 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // slick
+.slider {
+    width: 100%;
+    height: 630px;
+    margin: 100px auto;
+    .container{
+        h1{
+    margin-left: 360px;
+    font-size: 45px;
+    height: 47px;
+        }
+        .we{
+            margin-left: 300px;
+            font-size: 20px;
+            height: 22px;
+        }
+        .row{
+         .d-flex{
+           .first{
+               h2{margin-top: 160px;
+                font-size: 30px;
+                height: 32px;
+                   
+               }
+               p{
+                   margin-top: 30px;
+                   white-space: pre-line;
+                   font-size: 20px;
+                   height: 170px;
+               }
+           }
+         }
+        }
+    }
+  
+   
+  }
+  
+  .slick-slide {
+  margin: 0px 20px;
+  
+  height: 500px;
+  width: 1000px;
+ 
+  
+  }
+  
+  .slick-slide img {
+  width: 100%;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+  color: black;
+  
+  }
+  
+  
+  .slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+  }
+  
+  .slick-active {
+  opacity: .5;
+  }
+  
+  .slick-current {
+  opacity: 1;
+  }
+  
+  // slick
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .nav {
+        .hamburger {
+          display: none;
+        }
+      }
+    
+      .mobile-nav {
+        display: none;
+      }
+
+
+    // BANNER STARTS HERE
+
+.banner{
+    height: 80vh;
+   
+    .header{
+        .container{
+            .row{
+                
+                .nav-links{
+                    z-index: 3;
+                    margin-top: 50px;
+                    ul{
+                        li{
+                            a{
+                                font-size: 23px;
+                                margin-right: 5px;
+                               
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+   
+    
+    h1{
+       
+       
+        margin-left: 100px;
+      
+      
+       
+    
+    }
+    
+    .leaf{
+        
+       margin-left: 150px;
+       margin-top: 95px;
+      
+    }
+    
+    
+    
+    
+    }
+
+
+// BANNER ENDS HERE
+
+
+
+
+// ABOUT US STARTS HERE
+.about_us{
+    .container-fluid{
+        .row{
+            .left{
+            
+                p{
+                    white-space: pre-line;
+                    font-size: 23px;
+                    margin-left: 63px;
+                    height: 163;
+
+                }
+                h2{
+                    height: 60px;
+                    margin-left: 63px;
+                    font-size: 45px;
+                    margin-bottom: 20px;
+                }
+                h6{
+                    height: 26px;
+                    margin-left: 63px;
+                    margin-bottom: 10px;
+                    font-size: 24px;
+                }
+                .our{
+                    height: 25px;
+                    margin-left: 63px;
+                    margin-bottom: 10px;
+                    margin-top: 50px;
+
+                }
+                .our_ptag{
+                    height: 231px;
+                }
+            }
+            .right{
+                img{
+                    width: 480px;
+                    margin-left: 0px;
+                    margin-top: 80px;
+                }
+            }
+
+        }
+    }
+}
+// ABOUT US ENDS HERE
+
+
+
+
+
+// OUR VALUES STARTS HERE
+.our_values{
+    background-color: #E8DFCE;
+    margin-top: 100px;
+    .container{
+        .row{
+            h2{
+                height: 60px;
+                font-size: 45px;
+                margin-top: 70px;
+            }
+            .with{
+                height: 22px;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 20px;
+                margin-bottom: 40px;
+                height: 123px;
+            }
+            h3{
+                height: 35px;
+                font-size: 30px;
+            }
+            .first{
+                text-align: center;
+                h3{
+                    margin-top: 45px;
+                    font-size: 30px;
+                }
+               
+            }
+            .second{
+                margin-top: 140px;
+                text-align: center;  
+                h3{
+                    margin-top: 45px;
+                    font-size: 30px;
+                }         
+             } 
+            .third{
+                margin-top: 140px;
+                text-align: center;
+                h3{
+                    margin-top: 45px;
+                    font-size: 30px;
+                }
+             
+             } 
+             .forth{
+                text-align: center;
+                h3{
+                    margin-top: 45px;
+                    font-size: 30px;
+                }
+               
+            }
+        }
+    }
+}
+// OUR VALUES ENDS HERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// DEBUT TEAM STARTS HERE
+.debut_team{
+    margin-top: 100px;
+    .container{
+        .row{
+            h2{
+                height: 50px;
+                font-size: 45px;
+                margin-left: 0px;
+                
+
+            }
+
+            .col-md-12{
+                font-size: 17px;
+                height: 18px;
+            }
+            button{
+                margin-top: 10px;
+                border: none;
+                background-color: #262626;
+                color: white;
+                width: 180px;
+                height: 50px;
+                border-radius: 8px;
+                margin-left: 150px;
+            }
+            p{
+                margin-top: 30px;
+                margin-bottom: 50px;
+                height: 120px;
+            }
+            .first{
+                h6{
+                    margin-bottom: 20px;
+                    height: 20px;
+                }
+              
+                p{
+                    white-space: pre-line;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                img{
+                    border-radius: 0px 0px 0px 130px;
+                }
+               
+            }
+            .third{
+                img{
+                    border-radius: 0px 0px 1300px 0px;
+                }
+
+
+                h6{
+                    margin-bottom: 20px;
+                    height: 20px;
+                }
+              
+                p{
+                    white-space: pre-line;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+               
+            }
+            .second{
+                h6{
+                    margin-bottom: 15px;
+                    height: 20px;
+                }
+              
+                p{
+                    white-space: pre-line;
+                    margin-top: 15px;
+                    margin-bottom: 8px;
+                }
+               
+            }
+        }
+    }
+}
+// DEBUT TEAM ENDS HERE
+
+
+
+
+
+
+
+// GET IN TOUCH STARTS HERE
+
+
+
+
+.get_in_touch{
+    
+
+    bottom_image{
+       
+        z-index: 1;
+
+    }
+    .top{
+        position: absolute;
+        z-index: 2;
+        left: 45%;
+        top: 4.5%;
+    }
+position: relative;
+    h2{
+        position: absolute;
+        z-index: 3;
+        height: 40px;
+        top: 50%;
+        margin-left: 40px;
+      
+        
+        
+       
+    }
+    p{
+        position: absolute;
+        z-index: 3;
+        top: 60%;
+        white-space: pre-line;
+        font-size: 18px;
+    
+        margin-left: 40px;
+    }
+    
+
+    button{
+        position: absolute;
+        top: 80%;
+        left: 5.5%;
+        border: none;
+        background-color: #262626;
+        color: white;
+        width: 180px;
+        height: 50px;
+        border-radius: 8px;
+    }
+   
+}
+
+
+
+// GET IN TOUCH ENDS HERE
+
+
+
+
+
+
+.footer{
+    background-color: #262626;
+    color: white;
+    padding-top: 50px;
+    .container{
+        .row{
+            .first{
+                p{
+                    white-space: pre-line;
+                    height: 100px;
+                }
+                .icons{
+                    margin-top: 10px;
+                    
+                  .fab{
+                      margin-right: 5px;
+                     
+
+                  }
+                  .google-plus{
+                      color: black;
+                      margin-left: 0px;
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 11.5px 10px 11.5px 10px;
+
+                  }
+                  .linkedin-in{
+                      color: black;
+                     
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 13px 12px 12px 14px;
+
+                  }
+                  .twitter{
+                      color: black;
+                     
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 13px 12px 12px 13px;
+
+                  }
+                  .facebook{
+                      color: black;
+                     
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 12px 15px 12px 15px;
+
+                  }
+                }
+
+            }
+            .second{
+                h2{
+                    margin-top: 60px;
+                    margin-bottom: 30px;
+                    height: 40px;
+                    
+                    
+                }
+                .location{
+                    
+                    margin-bottom: 25px;
+                    
+                }
+                
+                .mail{
+                    display: flex;
+                    margin-bottom: 15px;
+                    p{
+                        margin-left: 15px;
+                    }
+                    
+                }
+                .phone{
+                    display: flex;
+                    margin-bottom: 15px;
+                    p{
+                        margin-left: 15px;
+                        white-space: pre-line;
+                    }
+                    
+                }
+                
+                }
+
+
+
+
+                .third{
+                    margin-top: 60px;
+                    h2{
+                        height: 40px;
+                    }
+                    .home{
+                        display: flex;
+                        margin-top: 20px;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .about{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .team{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .portfolio{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .contact_us{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                }
+
+                hr{
+                    background-color: white;
+                    width: 1000px;
+                    margin-top: 30px;
+                }
+               .last{
+                margin-left: 400px ;
+                margin-top: 20px;
+                margin-bottom: 20px;
+               }
+
+            }
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   // slick
+   .slider {
+       display: none;
+    width: 100%;
+    height: 630px;
+    margin: 100px auto;
+    .container{
+        h1{
+    margin-left: 360px;
+    font-size: 45px;
+    height: 47px;
+        }
+        .we{
+            margin-left: 300px;
+            font-size: 20px;
+            height: 22px;
+        }
+        .row{
+         .d-flex{
+           .first{
+               h2{margin-top: 160px;
+                font-size: 30px;
+                height: 32px;
+                   
+               }
+               p{
+                   margin-top: 30px;
+                   white-space: pre-line;
+                   font-size: 20px;
+                   height: 170px;
+               }
+               img{
+                   margin-top: 160px;
+               }
+           }
+         }
+        }
+    }
+  
+   
+  }
+  
+  .slick-slide {
+  margin: 0px 20px;
+  
+  height: 500px;
+  width: 1000px;
+ 
+  
+  }
+  
+  .slick-slide img {
+  width: 100%;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+  color: black;
+  
+  }
+  
+  
+  .slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+  }
+  
+  .slick-active {
+  opacity: .5;
+  }
+  
+  .slick-current {
+  opacity: 1;
+  }
+  
+  // slick
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    .nav {
+        .hamburger {
+          display: block;
+          width: 35px;
+          cursor: pointer;
+          appearance: none;
+          background: none;
+          outline: none;
+          border: none;
+          position: relative;
+        }
+    
+        .hamburger .bar,
+        .hamburger:after,
+        .hamburger:before {
+          content: "";
+          display: block;
+          width: 100%;
+          height: 3px;
+          background-color: black;
+          margin: 2px 0px;
+          transition: 0.4s;
+        }
+    
+        .hamburger.is-active:before {
+          transform: rotate(-45deg) translate(3px, 4px);
+        }
+    
+        .hamburger.is-active:after {
+          transform: rotate(45deg) translate(-3px, -10px);
+        }
+    
+        .hamburger.is-active .bar {
+          opacity: 0;
+          overflow: hidden;
+        }
+      }
+    
+      .mobile-nav {
+        display: block;
+        position: fixed;
+        top: 20;
+        left: 100%;
+        width: 100%;
+        min-height: 30vh;
+        z-index: 98;
+        background-color: #E8DFCE;
+        transition: 0.4s;
+    
+        ul {
+          text-align: center;
+          padding: 15px;
+    
+          li {
+            
+            a {
+              display: block;
+              text-align: center;
+              color: black;
+              margin-bottom: 12px;
+              
+              background-color: #E8DFCE;
+              font-size: 25px;
+              height: 28px;
+            }
+    
+            a:hover {
+              background-color: blue;
+            }
+          }
+        }
+      }
+      .mobile-nav.is-active {
+        left: 0;
+        overflow: hidden;
+      }
+      
+
+
+
+
+
+
+
+
+// HEADER STARTS HERE
+
+.banner{background-image: url(/img/banner.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    .header{
+        .container{
+            .row{
+                .log{
+                    z-index: 3;
+                    text-align: center;
+                  
+                    
+                    img{
+                        width: 200px;
+                    }
+                
+                }
+                .nav-links{
+                    display: none;
+                    
+                   
+                  
+                }
+            }
+        }
+    }
+    
+    .over-lay{
+        
+    
+        position: absolute;
+        z-index: 2;
+        top: 0%;
+        height: 50vh;
+    }
+    
+    h1{
+       
+        white-space: pre-line;
+        font-size: 30px;
+        margin-left: 0px;
+        margin-top: 30px;
+        height: 120px;
+    
+      
+        z-index: 3;
+    
+    }
+    
+    .leaf{
+        display: none;
+        position: absolute;
+        z-index: 4;
+       margin-left: 0px;
+       top: 10%;
+       text-align: center;
+       img{
+           height: 50px;
+       }
+    }
+    
+    
+    
+    
+    }
+    
+    
+    
+    // ABOUT US STARTS HERE
+    .about_us{
+        .container-fluid{
+            .row{
+                .left{
+                
+                    p{
+                        white-space: pre-line;
+                        font-size: 20px;
+                        margin-left: 17px;
+    
+                    }
+                    h2{
+                        height: 60px;
+                        margin-left: 17px;
+                        font-size: 45px;
+                        margin-bottom: 20px;
+                        margin-top: 46px;
+
+                    }
+                    h6{
+                        height: 27px;
+                        margin-left: 17px;
+                        margin-bottom: 10px;
+                    }
+                    .our{
+                        height: 25px;
+                        margin-left: 17px;
+                        margin-bottom: 10px;
+                        margin-top: -9px;
+    
+                    }
+                }
+                .right{
+                    img{
+                        width: 280px;
+                        margin-left: 0px;
+                        margin-top: 9px;
+                    }
+                }
+    
+            }
+        }
+    }
+    // ABOUT US ENDS HERE
+    
+    
+    // OUR VALUES STARTS HERE
+    .our_values{
+        background-color: #E8DFCE;
+        margin-top: 100px;
+        .container{
+            .row{
+                h2{
+                    height: 60px;
+                    font-size: 45px;
+                    margin-top: 70px;
+                }
+                p{
+                    margin-top: 20px;
+                    font-size: 20px;
+                    margin-bottom: 40px;
+                    
+                }
+                .with{
+                    height: 65px;
+                }
+                h3{
+                    height: 35px;
+                }
+                .first{
+                    text-align: center;
+                    h3{
+                        margin-top: 0px;
+                    }
+                   
+                }
+                .second{
+                    margin-top: 0px;
+                    text-align: center;
+                 
+                 } 
+                .third{
+                    margin-top: 0px;
+                    text-align: center;                 
+                 } 
+                 .forth{
+                    text-align: center;
+                    h3{
+                        margin-top: 0px;
+                    }
+                   
+                }
+            }
+        }
+    }
+    // OUR VALUES ENDS HERE
+    
+    
+ // DEBUT TEAM STARTS HERE
+.debut_team{
+    margin-top: 100px;
+    .container{
+        .row{
+            h2{
+                height: 60px;
+                font-size: 45px;
+                margin-left: 0px;
+
+            }
+
+
+            .col-md-12 {
+                font-size: 17px;
+                height: 18px;
+                margin-bottom: 0px;
+            }
+
+
+
+            button{
+                margin-top: 10px;
+                border: none;
+                background-color: #262626;
+                color: white;
+                width: 180px;
+                height: 50px;
+                border-radius: 8px;
+                margin-left: 0px;
+            }
+            // p{
+            //     margin-top: 30px;
+            //     margin-bottom: 50px;
+            // }
+            .first{
+                h6{
+                    margin-bottom: 10px;
+                    height: 20px;
+                    margin-top: 10px;
+                }
+              
+                p{
+                    white-space: pre-line;
+                    margin-top: 20px;
+                    margin-bottom: -37px;
+                }
+                img{
+                    border-radius: 0px 0px 0px 0px;
+                }
+               
+            }
+            .third{
+                img{
+                    border-radius: 0px 0px 0px 0px;
+                }
+
+
+                h6{
+                    margin-bottom: 10px;
+                    height: 20px;
+                    margin-top: 10px;
+                }
+              
+                p{
+                    white-space: pre-line;
+                    margin-top: 20px;
+                    margin-bottom: -37px;
+                }
+               
+            }
+            .second{
+                h6{
+                    margin-bottom: 10px;
+                    height: 20px;
+                    margin-top: 10px;
+                }
+              
+                p{
+                    white-space: pre-line;
+                    margin-top: 15px;
+                    margin-bottom: -37px;
+                }
+               
+            }
+        }
+    }
+}
+// DEBUT TEAM ENDS HERE   
+
+
+    
+    
+    
+    
+    
+
+// GET IN TOUCH STARTS HERE
+
+
+
+
+.get_in_touch{
+    
+
+    .bottom_image{
+       
+        z-index: 1;
+
+    }
+    .top{
+        position: absolute;
+        z-index: 2;
+        left: 5%;
+        top: 4.5%;
+        display: none;
+    }
+position: relative;
+    h2{
+        position: absolute;
+        z-index: 3;
+        height: 45px;
+        top: 35%;
+        margin-left: 40px;
+      
+        
+        
+       
+    }
+    p{
+        position: absolute;
+        z-index: 3;
+        top: 45%;
+        white-space: pre-line;
+        font-size: 18px;
+    line-height: 25px;
+        margin-left: 40px;
+        height: 125px;
+    }
+    
+
+    button{
+        position: absolute;
+        top: 73%;
+        left: 13%;
+        border: none;
+        background-color: #262626;
+        color: white;
+        width: 180px;
+        height: 50px;
+        border-radius: 8px;
+    }
+   
+}
+
+
+
+// GET IN TOUCH ENDS HERE
+
+
+
+
+
+
+
+
+
+//footer starts here
+
+
+.footer{
+    background-color: #262626;
+    color: white;
+    padding-top: 40px;
+   
+    .container{
+        .row{
+            .first{
+                p{
+                    white-space: pre-line;
+                }
+                .icons{
+                    margin-top: 20px;
+                  .fab{
+                      margin-right: 10px;
+                     
+
+                  }
+                  .google-plus{
+                      color: black;
+                      margin-left: 25px;
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 11.5px 10px 11.5px 10px;
+
+                  }
+                  .linkedin-in{
+                      color: black;
+                     
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 13px 12px 12px 14px;
+
+                  }
+                  .twitter{
+                      color: black;
+                     
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 13px 12px 12px 13px;
+
+                  }
+                  .facebook{
+                      color: black;
+                     
+                      background-color: #FFFFFF;
+                      border-radius: 50%;
+                      padding: 12px 15px 12px 15px;
+
+                  }
+                }
+
+            }
+            .second{
+               
+                h2{
+                    margin-top: 60px;
+                    margin-bottom: 30px;
+                    height: 40px;
+                    margin-left: 80px;
+                    
+                    
+                    
+                }
+                .location{
+                    
+                    margin-bottom: 25px;
+                    
+                }
+                
+                .mail{
+                    display: flex;
+                    margin-bottom: 15px;
+                    p{
+                        margin-left: 15px;
+                    }
+                    
+                }
+                .phone{
+                    display: flex;
+                    margin-bottom: 15px;
+                    p{
+                        margin-left: 15px;
+                        white-space: pre-line;
+                    }
+                    
+                }
+                
+                }
+
+
+
+
+                .third{
+                    margin-top: 60px;
+                    h2{
+                        height: 40px;
+                    }
+                    .home{
+                        display: flex;
+                        margin-top: 20px;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .about{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .team{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .portfolio{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                    .contact_us{
+                        display: flex;
+                        .fas{
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        p{
+                            margin-top: 1px;
+                        }
+                    }
+                }
+
+                hr{
+                    background-color: white;
+                    width: 1000px;
+                    margin-top: 30px;
+                }
+               .last{
+                margin-left: 800px ;
+                margin-top: 20px;
+                margin-bottom: 0px;
+               }
+
+            }
+        }
+    }
+    
+//footer ends here
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
